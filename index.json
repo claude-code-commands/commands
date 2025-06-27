@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "updated": "2025-06-26T00:00:00Z",
+  "commands": [
+    {
+      "name": "debug-help",
+      "description": "Provide systematic debugging assistance for code issues",
+      "file": "debug-help.md"
+    },
+    {
+      "name": "code-review",
+      "description": "Perform comprehensive code review with best practices suggestions",
+      "file": "code-review.md"
+    },
+    {
+      "name": "test-gen",
+      "description": "Generate comprehensive test suites for your code",
+      "file": "test-gen.md"
+    },
+    {
+      "name": "refactor",
+      "description": "Suggest and implement code refactoring improvements",
+      "file": "refactor.md"
+    },
+    {
+      "name": "api-docs",
+      "description": "Generate comprehensive API documentation from code",
+      "file": "api-docs.md"
+    }
+  ]
+}
