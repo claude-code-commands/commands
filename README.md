@@ -1,4 +1,4 @@
-s# Claude CMD Commands Repository
+# Claude CMD Commands Repository
 
 This repository contains a collection of Claude Code slash commands that can be installed and used with the `claude-cmd` package manager.
 
