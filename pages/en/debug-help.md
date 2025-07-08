@@ -1,5 +1,6 @@
 ---
 description: Provide systematic debugging assistance for code issues
+allowed-tools: Read, Glob, Grep, Bash(git:*), Bash(grep:*), Bash(find:*), Bash(gdb:*), Bash(lldb:*), Bash(node:*), Bash(python:*), Bash(java:*), Edit
 ---
 
 ## Your task

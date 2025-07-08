@@ -1,5 +1,6 @@
 ---
 description: Generate comprehensive test suites for your code
+allowed-tools: Read, Glob, Grep, Bash(git:*), Bash(grep:*), Bash(find:*), Bash(npm:*), Bash(go:*), Bash(pytest:*), Bash(jest:*), Bash(mvn:*), Write, Edit
 ---
 
 ## Your task

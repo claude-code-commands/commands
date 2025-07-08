@@ -1,5 +1,6 @@
 ---
 description: Suggest and implement code refactoring improvements
+allowed-tools: Read, Glob, Grep, Bash(git:*), Bash(grep:*), Bash(find:*), Edit, MultiEdit
 ---
 
 ## Your task

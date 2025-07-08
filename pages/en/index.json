@@ -1,31 +1,36 @@
 {
-  "version": "1.0.0",
-  "updated": "2025-06-26T00:00:00Z",
+  "version": "1.0.1",
+  "updated": "2025-07-09T00:41:00Z",
   "commands": [
     {
       "name": "debug-help",
       "description": "Provide systematic debugging assistance for code issues",
-      "file": "debug-help.md"
+      "file": "debug-help.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(git:*)", "Bash(grep:*)", "Bash(find:*)", "Bash(gdb:*)", "Bash(lldb:*)", "Bash(node:*)", "Bash(python:*)", "Bash(java:*)", "Edit"]
     },
     {
       "name": "code-review",
       "description": "Perform comprehensive code review with best practices suggestions",
-      "file": "code-review.md"
+      "file": "code-review.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(git:*)", "Bash(grep:*)", "Bash(find:*)", "Bash(eslint:*)", "Bash(golint:*)", "Bash(flake8:*)", "Edit"]
     },
     {
       "name": "test-gen",
       "description": "Generate comprehensive test suites for your code",
-      "file": "test-gen.md"
+      "file": "test-gen.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(git:*)", "Bash(grep:*)", "Bash(find:*)", "Bash(npm:*)", "Bash(go:*)", "Bash(pytest:*)", "Bash(jest:*)", "Bash(mvn:*)", "Write", "Edit"]
     },
     {
       "name": "refactor",
       "description": "Suggest and implement code refactoring improvements",
-      "file": "refactor.md"
+      "file": "refactor.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(git:*)", "Bash(grep:*)", "Bash(find:*)", "Edit", "MultiEdit"]
     },
     {
       "name": "api-docs",
       "description": "Generate comprehensive API documentation from code",
-      "file": "api-docs.md"
+      "file": "api-docs.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(grep:*)", "Bash(find:*)", "Write", "Edit"]
     }
   ]
 }

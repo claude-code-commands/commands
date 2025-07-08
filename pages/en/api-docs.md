@@ -1,5 +1,6 @@
 ---
 description: Generate comprehensive API documentation from code
+allowed-tools: Read, Glob, Grep, Bash(grep:*), Bash(find:*), Write, Edit
 ---
 
 ## Your task
