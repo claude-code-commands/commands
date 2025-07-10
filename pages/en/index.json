@@ -31,6 +31,18 @@
       "description": "Generate comprehensive API documentation from code",
       "file": "api-docs.md",
       "allowed-tools": ["Read", "Glob", "Grep", "Bash(grep:*)", "Bash(find:*)", "Write", "Edit"]
+    },
+    {
+      "name": "frontend:component",
+      "description": "Generate React components with TypeScript definitions",
+      "file": "frontend/component.md",
+      "allowed-tools": "Read, Edit, Write, Bash(npm:*)"
+    },
+    {
+      "name": "backend:api",
+      "description": "Generate REST API endpoints with validation and error handling",
+      "file": "backend/api.md",
+      "allowed-tools": "Read, Edit, Write, Bash(npm:*, yarn:*)"
     }
   ]
 }
