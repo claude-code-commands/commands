@@ -1,0 +1,48 @@
+{
+  "version": "1.0.1",
+  "updated": "2025-08-26T14:00:00Z",
+  "commands": [
+    {
+      "name": "aide-debogage",
+      "description": "Fournir une assistance systématique de débogage pour les problèmes de code",
+      "file": "aide-debogage.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(git:*)", "Bash(grep:*)", "Bash(find:*)", "Bash(gdb:*)", "Bash(lldb:*)", "Bash(node:*)", "Bash(python:*)", "Bash(java:*)", "Edit"]
+    },
+    {
+      "name": "revue-code",
+      "description": "Effectuer une revue de code complète avec des suggestions de bonnes pratiques",
+      "file": "revue-code.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(git:*)", "Bash(grep:*)", "Bash(find:*)", "Bash(eslint:*)", "Bash(golint:*)", "Bash(flake8:*)", "Edit"]
+    },
+    {
+      "name": "generation-tests",
+      "description": "Générer des suites de tests complètes pour votre code",
+      "file": "generation-tests.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(git:*)", "Bash(grep:*)", "Bash(find:*)", "Bash(npm:*)", "Bash(go:*)", "Bash(pytest:*)", "Bash(jest:*)", "Bash(mvn:*)", "Write", "Edit"]
+    },
+    {
+      "name": "refactorisation",
+      "description": "Suggérer et implémenter des améliorations de refactorisation du code",
+      "file": "refactorisation.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(git:*)", "Bash(grep:*)", "Bash(find:*)", "Edit", "MultiEdit"]
+    },
+    {
+      "name": "docs-api",
+      "description": "Générer une documentation API complète à partir du code",
+      "file": "docs-api.md",
+      "allowed-tools": ["Read", "Glob", "Grep", "Bash(grep:*)", "Bash(find:*)", "Write", "Edit"]
+    },
+    {
+      "name": "frontend:composant",
+      "description": "Générer des composants React avec des définitions TypeScript",
+      "file": "frontend/composant.md",
+      "allowed-tools": "Read, Edit, Write, Bash(npm:*)"
+    },
+    {
+      "name": "backend:api",
+      "description": "Générer des endpoints d'API REST avec validation et gestion d'erreurs",
+      "file": "backend/api.md",
+      "allowed-tools": "Read, Edit, Write, Bash(npm:*, yarn:*)"
+    }
+  ]
+}
